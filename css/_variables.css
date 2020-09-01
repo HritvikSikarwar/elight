@@ -1,0 +1,10 @@
+:root {
+  --main-bg-color: black;
+  --main-bg--on-hover-color: gray;
+  --shadow-color: 0px 10px 30px darkgray;
+  --btn-border: 1px white;
+  --border-on-hover: 2px solid gray;
+  --text-color: solid black;
+  --text-on-hover: 2px solid black;
+  --text-bg-shadow: 2px rgba(255,255,255,0.8);;
+}
