@@ -30,7 +30,7 @@ a:hover {
   margin: 20px auto;
 }
 #header {
-  color: white;
+  color: var(--main-bg-color2);
   background: var(--main-bg-color);
 }
 #logo {
@@ -46,7 +46,7 @@ a:hover {
   display: inline-block;
 }
 #menu li a {
-  color: blanchedalmond;
+  color: var(--main-bg-color2);
   background: var(--main-bg-color);
   padding: 15px 10px;
   display: block;
@@ -55,11 +55,11 @@ a:hover {
   background: var(--main-bg--on-hover-color);
 }
 #banner {
-  background: url("/assets/01.jpg") no-repeat 0 0;
+  background: url("../assets/04.jpg") no-repeat 0 0;
   block-size: cover;
 }
 #banner container row col-lg-6 banner-title h1 {
-  color: white;
+  color: var(--main-bg-color2);
 }
 .banner-title{
   padding-top: 5rem;
@@ -71,20 +71,20 @@ a:hover {
   margin: 0;
 }
 .banner-title p.lead {
-  color: white;
+  color: var(--main-bg-color2);
   padding: 10px;
 }
 .banner-title input.button-form {
   text-align: center;
   background: var(--main-bg-color);
-  color: white;
+  color: var(--main-bg-color2);
   justify-items: center;
-  border: 1px solid white;
+  border: 1px solid var(--main-bg-color2);
 }
 .banner-title input.button-form:hover {
-  background: white;
-  color: black;
-  border: 1px solid black;
+  background: var(--main-bg-color2);
+  color: var(--main-bg-color);
+  border: 1px solid var(--main-bg-color);
 }
 .service-box {
   text-align: center;
@@ -95,14 +95,14 @@ a:hover {
   margin-bottom: 15px;
 }
 #testimonials {
-  color: white;
+  color: var(--main-bg-color2);
   background: url(../assets/14.jpg) 0, 0;
   background-size: cover;
   padding: 50px 0;
   position: relative;
 }
 #testimonials::before {
-  background: rgba(52, 73, 94, 0.7);
+  background: var(--border-on-hover);
   content: "";
   position: absolute;
   top: 0;
@@ -146,20 +146,20 @@ a.readmore:after {
   box-shadow: 2px 4px 4px var(--main-bg-color);
 }
 #footer-sidebar {
-  color: wheat;
+  color: var(--main-bg-color2);
   background: var(--main-bg-color);
   padding: 20px 0;
 }
 .footer-widget h4:after {
   content: "";
-  background: white;
+  background: var(--main-bg-color2);
   display: block;
   width: auto;
   height: 2px;
   margin: 5px 0;
 }
 .footer-widget a {
-  color: white;
+  color: var(--main-bg-color2);
 }
 .latest-news {
   list-style: none;
